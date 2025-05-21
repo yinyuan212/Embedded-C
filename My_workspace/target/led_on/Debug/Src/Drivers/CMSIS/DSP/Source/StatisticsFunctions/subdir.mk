@@ -1,0 +1,304 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctions.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctionsF16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f64.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f64.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q15.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q31.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q7.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q15.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q31.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q7.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f64.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f64.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q15.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q31.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q7.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q15.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q31.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q7.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f64.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f64.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f64.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f64.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q15.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q31.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q7.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q15.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q31.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q7.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f64.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q15.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q31.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q7.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f64.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f64.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q15.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q31.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q7.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q15.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q31.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q7.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f64.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q15.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q31.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q7.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f64.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q15.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q31.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q7.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q15.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q31.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f64.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q15.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q31.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f16.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f32.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f64.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q15.c \
+../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q31.c 
+
+OBJS += \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctions.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctionsF16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f64.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f64.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q15.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q31.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q7.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q15.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q31.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q7.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f64.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f64.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q15.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q31.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q7.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q15.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q31.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q7.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f64.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f64.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f64.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f64.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q15.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q31.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q7.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q15.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q31.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q7.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f64.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q15.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q31.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q7.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f64.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f64.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q15.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q31.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q7.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q15.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q31.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q7.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f64.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q15.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q31.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q7.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f64.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q15.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q31.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q7.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q15.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q31.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f64.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q15.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q31.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f16.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f32.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f64.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q15.o \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q31.o 
+
+C_DEPS += \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctions.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctionsF16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f64.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f64.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q15.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q31.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q7.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q15.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q31.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q7.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f64.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f64.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q15.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q31.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q7.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q15.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q31.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q7.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f64.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f64.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f64.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f64.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q15.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q31.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q7.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q15.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q31.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q7.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f64.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q15.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q31.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q7.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f64.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f64.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q15.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q31.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q7.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q15.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q31.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q7.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f64.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q15.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q31.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q7.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f64.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q15.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q31.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q7.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q15.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q31.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f64.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q15.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q31.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f16.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f32.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f64.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q15.d \
+./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q31.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/%.o Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/%.su Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/%.cyclo: ../Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/%.c Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-Src-2f-Drivers-2f-CMSIS-2f-DSP-2f-Source-2f-StatisticsFunctions
+
+clean-Src-2f-Drivers-2f-CMSIS-2f-DSP-2f-Source-2f-StatisticsFunctions:
+	-$(RM) ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctions.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctions.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctions.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctions.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctionsF16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctionsF16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctionsF16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctionsF16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f64.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f64.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f64.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_f64.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f64.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f64.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f64.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f64.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q15.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q15.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q15.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q15.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q31.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q31.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q31.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q31.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q7.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q7.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q7.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q7.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q15.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q15.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q15.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q15.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q31.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q31.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q31.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q31.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q7.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q7.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q7.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmax_q7.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f64.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f64.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f64.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_f64.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f64.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f64.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f64.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f64.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q15.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q15.d
+	-$(RM) ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q15.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q15.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q31.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q31.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q31.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q31.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q7.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q7.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q7.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q7.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q15.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q15.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q15.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q15.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q31.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q31.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q31.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q31.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q7.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q7.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q7.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_absmin_q7.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f64.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f64.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f64.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f64.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f64.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f64.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f64.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f64.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f64.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f64.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f64.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f64.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f32.su
+	-$(RM) ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f64.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f64.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f64.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f64.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q15.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q15.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q15.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q15.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q31.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q31.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q31.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q31.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q7.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q7.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q7.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_q7.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q15.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q15.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q15.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q15.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q31.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q31.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q31.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q31.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q7.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q7.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q7.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q7.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f64.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f64.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f64.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f64.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q15.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q15.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q15.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q15.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q31.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q31.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q31.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q31.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q7.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q7.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q7.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q7.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f64.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f64.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f64.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f64.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f64.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f64.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f64.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_f64.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q15.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q15.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q15.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q15.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q31.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q31.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q31.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q31.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q7.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q7.d
+	-$(RM) ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q7.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_no_idx_q7.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q15.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q15.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q15.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q15.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q31.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q31.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q31.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q31.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q7.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q7.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q7.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q7.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f64.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f64.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f64.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_f64.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q15.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q15.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q15.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q15.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q31.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q31.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q31.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q31.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q7.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q7.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q7.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_mse_q7.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f64.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f64.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f64.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f64.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q15.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q15.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q15.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q15.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q31.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q31.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q31.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q31.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q7.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q7.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q7.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q7.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q15.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q15.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q15.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q15.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q31.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q31.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q31.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q31.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f64.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f64.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f64.o
+	-$(RM) ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f64.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q15.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q15.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q15.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q15.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q31.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q31.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q31.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q31.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f16.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f16.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f16.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f16.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f32.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f32.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f32.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f32.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f64.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f64.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f64.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f64.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q15.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q15.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q15.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q15.su ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q31.cyclo ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q31.d ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q31.o ./Src/Drivers/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q31.su
+
+.PHONY: clean-Src-2f-Drivers-2f-CMSIS-2f-DSP-2f-Source-2f-StatisticsFunctions
+

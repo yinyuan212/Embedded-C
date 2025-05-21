@@ -1,0 +1,8 @@
+23:52:42 **** Clean-only build of configuration Debug for project arrays ****
+rm -rf main.d arrays.exe main.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;C:\\bin;C:\\usr\bin;C:/ST/STM32CubeIDE_1.18.0/STM32CubeIDE//plugins/com.st.stm32cube.ide.jre.win64_3.4.0.202409160955/jre/bin/server;C:/ST/STM32CubeIDE_1.18.0/STM32CubeIDE//plugins/com.st.stm32cube.ide.jre.win64_3.4.0.202409160955/jre/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Users\yinyuan212\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\yinyuan212\AppData\Local\Programs\Python\Python39\;C:\Users\yinyuan212\AppData\Local\Programs\Python\Launcher\;C:\Users\yinyuan212\AppData\Local\Microsoft\WindowsApps;C:\Users\yinyuan212\AppData\Local\Programs\Microsoft VS Code\bin;C:\ST\STM32CubeIDE_1.18.0\STM32CubeIDE]
+
+23:52:42 **** Clean-only build of configuration Debug for project arrays ****
